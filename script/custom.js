@@ -26,6 +26,17 @@ $(function () {
 		$('.pop3').fadeIn();
 	});
 
+	// 아트워크 다시 클릭시 없어짐
+	$('.pop1 img').click(function () {
+		$('.pop1').fadeOut();
+	});
+	$('.pop2 img').click(function () {
+		$('.pop2').fadeOut();
+	});
+	$('.pop3 img').click(function () {
+		$('.pop3').fadeOut();
+	});
+
 	$('.popup p').click(function () {
 		$('.popup').fadeOut();
 	});
