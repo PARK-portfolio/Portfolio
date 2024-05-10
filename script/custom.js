@@ -36,10 +36,6 @@ $(function () {
 	$('.pop3 img').click(function () {
 		$('.pop3').fadeOut();
 	});
-
-	$('.popup p').click(function () {
-		$('.popup').fadeOut();
-	});
 });
 
 // 팝업 슬라이드
