@@ -305,7 +305,8 @@ h6 {
 
 /* 3 */
 #section3 {
-	background-color: #5b58a2;
+	background: url(../images/section3_bg.png) center no-repeat;
+	background-size: cover;
 }
 
 .art {
@@ -314,15 +315,23 @@ h6 {
 	display: -webkit-flex;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .art li {
 	width: 30%;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .art li img {
 	display: block;
 	width: 100%;
+	transition: all 0.2s;
+}
+
+.art li img:hover{
+	filter: brightness(0.7);
 }
 
 /* 4 */
@@ -507,17 +516,9 @@ h6 {
 }
 
 .popup img {
-	width: 100%;
+	width: auto;
+	height: 780px;
 	display: block;
-}
-
-.popup p {
-	position: absolute;
-	top: -50px;
-	right: -50px;
-	color: #fff;
-	font-size: 2rem;
-	cursor: pointer;
 }
 
 .popup_slide {
@@ -753,6 +754,14 @@ h6 {
 	.magic {
 		top: -15%;
 	}
+
+	#section3{
+		background: #bea991;
+	}
+	.art {
+		margin-bottom: 0px;
+	}
+	
 
 	.heart {
 		top: 31%;
