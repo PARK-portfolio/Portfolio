@@ -761,7 +761,12 @@ h6 {
 	.art {
 		margin-bottom: 0px;
 	}
-	
+	.popup img{
+		display: block;
+		width: 90%;
+		height: auto;
+		margin: auto;
+	}
 
 	.heart {
 		top: 31%;
